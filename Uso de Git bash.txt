@@ -1,0 +1,44 @@
+Comandos git
+Comandos a utilizar ucuando se trabaja en equipo y hay subidas constantes y descargas
+	gig pull --- Checar si no se han echo modificacines de otrso usuarios
+	git status --- Saber si no se ha subido un archivo
+	git add . --- Subir a github todos los archivos que no se allan subido
+	git commit -m "--mensaje--" --- Para subir a internet lo que se ha añadido con el add, en el mensjae va una especificacion del porque lo subiste
+	git push origin master --- Es como aceptar la solicitud de subida
+
+Comandos para subir un repo a github de manera personal
+	Primero crear un repo en github
+	en la terminal pulsar estando en la direccion del proyecto
+		mvn install 		esto igual cuando se descarga un repo nuevo
+		git init 	para establecer el repo en el que estamos como master
+		git add . 	para añadir todos los archivos que se subiran
+		git commit -m"    "		para asignar un mensaje al repo
+		git remote add origin https://github.com/David992104/SubirArchivo.git   La direccion cambiara dependiendo del github y se obtiene de ahi mismo
+		git push -u origin master   para subir a internet todo lo anterior.
+
+Comandos para crear el target
+
+Comandos para crear el gitignore
+	una forma de crear un gitignore es accediendo a gitignore.io ahi especifiacmos que estamos haciendo y automaticamente
+	nos creara un gitignore solo copeamos y listo, en la carpeta raiz del programa en el archivo .gitignore
+
+	touch .gitingonre --- Para crear el archivo
+	vim .gitignore --- Modificar el archivo 
+	p --- para pegar el texto copiado en el modificadore del gitignore
+
+	esc - :wq --- para salir y guardar
+
+	
+	para descargar repo
+	
+	git clone 'direccionRepo'
+	
+	
+
+
+
+
+
+
+
+@.-331050152035
